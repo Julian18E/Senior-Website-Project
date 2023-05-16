@@ -1,0 +1,26 @@
+body {
+    color: black;
+    font-weight: 300;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+  }
+  
+  p {
+    color: black;
+  font-size: xx-large;
+  }
+
+  #hp  {
+    float: right;    
+     margin: 0 0 0 15px;
+    }
+
+    #Fp  {
+      float: left;    
+       margin: 0 15px 0 0;
+      }
+
+      #Cp  {
+        float: right;    
+         margin: 0 0 0 15px;
+        }
