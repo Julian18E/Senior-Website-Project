@@ -21,3 +21,45 @@ img {
   padding-top: 30%;
 float: left;
 }
+
+slider-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+slider-container slider-content {
+  width: 250px;
+  height: 180px;
+  perspective: 1000px;
+}
+
+slider-items {
+  cursor: grab;
+  position: relative;
+  transform-style: preserve-3d;
+}
+
+slider-items slider-item {
+  position: absolute;
+}
+
+slider-item img {
+  border-radius: 3px;
+  pointer-events: none;
+  opacity: .95;
+  transition: .3s;
+}
+
+slider-item:hover img {
+  opacity: 1;
+  scale: 1.05;
+}
+
+@media (max-width: 512px) {
+
+   slider-container slider-content {
+    width: 150px;
+    height: 108px;
+   }
+}
